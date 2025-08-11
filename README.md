@@ -10,6 +10,13 @@
 
 ---
 
+### 📸 Avatar
+<p align="center">
+  <img src="images/avatar.png" alt="Wang Jialiang" width="150" style="border-radius: 50%;">
+</p>
+
+---
+
 ### 💬 About Me
 > <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2500&pause=500&color=00F7FF&width=500&lines=I+love+coding+%26+learning+new+things;Always+improving+my+skills;Building+cool+projects+with+Python+%26+C%2B%2B" alt="Typing SVG" />
 
@@ -45,13 +52,6 @@ I enjoy exploring new technologies, solving problems, and building impactful sof
 
 ### 🌱 Contribution Graph
 [![Wang Jialiang's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=hysonburg&bg_color=0f2d3d&color=1cadfb&line=1cadfb&point=1cadfb&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
----
-
-### 📸 Avatar
-<p align="center">
-  <img src="images/avatar.png" alt="Wang Jialiang" width="150" style="border-radius: 50%;">
-</p>
 
 ---
 
