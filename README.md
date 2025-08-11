@@ -1,31 +1,33 @@
-<!-- 居中显示头像 -->
-<p align="center">
-  <img src="images/avatar.png" alt="My Avatar" width="150" style="border-radius: 50%;" />
-</p>
+<h1 align="center">Hi 👋, I'm Wang Jialiang</h1>
+<h3 align="center">🎓 Senior student in Computer Science and Technology, Nanjing University of Finance & Economics</h3>
 
-<!-- 居中显示Banner并可点击 -->
+---
+
+### 📧 Contact
+- **Email:** [jialiangwang2@163.com](mailto:jialiangwang2@163.com)
+- **GitHub:** [https://github.com/你的用户名](https://github.com/你的用户名)
+
+---
+
+### 💻 Skills
+- **Programming Languages:** Python, C++, C#
+- **Tools & Platforms:** Git, Docker, VS Code, Linux
+- **Areas of Interest:** Software Development, Project Deployment, System Optimization
+
+---
+
+### 📂 About Me
+I am currently a senior student majoring in **Computer Science and Technology** at **Nanjing University of Finance & Economics**.  
+I have solid technical skills, a passion for problem-solving, and a good ability to work in teams.  
+In my previous projects, I worked on requirement analysis, coding, functional testing, and system deployment.  
+
+---
+
+### 📸 Avatar
 <p align="center">
-  <a href="https://你的用户名.github.io/你的仓库名/banner.html">
-    <img src="images/banner.svg" alt="Cool Banner" />
-  </a>
+  <img src="images/avatar.png" alt="Wang Jialiang" width="150" style="border-radius: 50%;">
 </p>
 
 ---
 
-## 👋 Hi there, I'm Jialiang Wang
-🎓 Final-year Computer Science & Technology student at Nanjing University of Finance and Economics.  
-💻 Skilled in **Python**, **C++**, **C#**.  
-📧 Contact: **jialiangwang2@163.com**  
-
----
-
-### 🚀 Projects
-- [Awesome Project 1](#)
-- [Awesome Project 2](#)
-- [Awesome Project 3](#)
-
----
-
-<p align="center">
-  <i>Crafted with ❤️ and a touch of tech magic ✨</i>
-</p>
+⭐️ *Thanks for visiting my profile!*
