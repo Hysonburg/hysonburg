@@ -1,40 +1,31 @@
+<!-- 居中显示头像 -->
 <p align="center">
-  <!-- SVG banner（本地相对路径） -->
-  <img src="images/banner.svg" alt="banner" />
+  <img src="images/avatar.png" alt="My Avatar" width="150" style="border-radius: 50%;" />
 </p>
 
-<h1 align="center">👋 Hi, I'm <b>Wang Jialiang</b></h1>
-<p align="center">🎓 Senior · Computer Science & Technology — Nanjing University of Finance & Economics</p>
-
+<!-- 居中显示Banner并可点击 -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%23-%231f5bff.svg?style=for-the-badge&logo=c-sharp&logoColor=white" />
+  <a href="https://你的用户名.github.io/你的仓库名/banner.html">
+    <img src="images/banner.svg" alt="Cool Banner" />
+  </a>
 </p>
 
 ---
 
-## 🔭 About Me
-I focus on backend development, deployment with Docker, and exploring AI-driven solutions. I write clean, maintainable code and enjoy solving algorithmic problems.
+## 👋 Hi there, I'm Jialiang Wang
+🎓 Final-year Computer Science & Technology student at Nanjing University of Finance and Economics.  
+💻 Skilled in **Python**, **C++**, **C#**.  
+📧 Contact: **jialiangwang2@163.com**  
 
 ---
 
-## 🛠️ Skills
-- **Languages:** Python · C++ · C#  
-- **Tools:** Docker · Git · Linux  
-- **Interests:** AI Applications · System Optimization · Full-Stack Development
-
----
-
-## 📫 Contact
-- Email: **[jialiangwang2@163.com](mailto:jialiangwang2@163.com)**  
-- GitHub: **[Hysonburg](https://github.com/Hysonburg)**
+### 🚀 Projects
+- [Awesome Project 1](#)
+- [Awesome Project 2](#)
+- [Awesome Project 3](#)
 
 ---
 
 <p align="center">
-  <!-- GitHub 阅读统计（可选） -->
-  <img src="https://github-readme-stats.vercel.app/api?username=Hysonburg&show_icons=true&theme=tokyonight" alt="stats" />
+  <i>Crafted with ❤️ and a touch of tech magic ✨</i>
 </p>
-
-<p align="center">Made with ❤️ · Designed for a sleek, tech-forward profile</p>
