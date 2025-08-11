@@ -42,6 +42,19 @@ I enjoy exploring new technologies, solving problems, and building impactful sof
 
 ---
 
+### 📄 Publications
+- **Wang, Jialiang**, et al. *Predictive Modeling and Optimization in XXX Field* — **Honorable Mention Award**, Mathematical Contest in Modeling (MCM/ICM), COMAP, USA, 2025.  
+  [📄 Read Paper](https://github.com/hysonburg/hysonburg/blob/main/papers/2025%20MCM%20Honorable%20Mention.pdf)
+
+---
+
+### 🚀 Projects
+- **Dockerized Python Deployment** — Deployed a complete Python-based project in Docker to meet client requirements, ensuring timely delivery and high performance.
+- **Software Requirement Analysis & Optimization** — Conducted software requirement analysis, functional testing, performance tuning, and bug fixing for enterprise systems.
+- **C# Data Visualization Tool** — Built an interactive visualization tool for large datasets using C# and .NET.
+
+---
+
 ### 📊 GitHub Stats
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=hysonburg&show_icons=true&theme=tokyonight" alt="GitHub stats" height="160"/>
