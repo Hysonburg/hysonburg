@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <!-- 发光滤镜 -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- 循环渐变 -->
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0ff" >
+        <animate attributeName="stop-color" dur="8s" repeatCount="indefinite"
+          values="#00d4ff; #7b61ff; #ff3ba8; #00d4ff"/>
+      </stop>
+      <stop offset="50%" stop-color="#7b61ff">
+        <animate attributeName="stop-color" dur="8s" repeatCount="indefinite"
+          values="#7b61ff; #ff3ba8; #00d4ff; #7b61ff"/>
+      </stop>
+      <stop offset="100%" stop-color="#ff3ba8">
+        <animate attributeName="stop-color" dur="8s" repeatCount="indefinite"
+          values="#ff3ba8; #00d4ff; #7b61ff; #ff3ba8"/>
+      </stop>
+    </linearGradient>
+
+    <!-- 小粒子模板 -->
+    <g id="particle">
+      <circle cx="0" cy="0" r="4" fill="#ffffff" opacity="0.85"/>
+    </g>
+
+    <!-- 头像裁切 -->
+    <clipPath id="avatarClip">
+      <circle cx="220" cy="180" r="86"/>
+    </clipPath>
+  </defs>
+
+  <!-- 背景渐变 -->
+  <rect width="1200" height="360" fill="url(#grad)"/>
+  <!-- 半透明网格/渐隐层增加质感 -->
+  <rect width="1200" height="360" fill="#000" opacity="0.06"/>
+
+  <!-- 飘动粒子（多实例） -->
+  <g fill="#fff" opacity="0.18" filter="url(#glow)">
+    <use href="#particle" x="80"  y="60">
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        values="0 0; 20 -10; 0 0" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.05;0.25;0.05" dur="6s" repeatCount="indefinite"/>
+    </use>
+    <use href="#particle" x="480" y="40">
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        values="0 0; -40 20; 0 0" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.04;0.22;0.04" dur="9s" repeatCount="indefinite"/>
+    </use>
+    <use href="#particle" x="900" y="120">
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        values="0 0; 30 -18; 0 0" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.06;0.26;0.06" dur="7s" repeatCount="indefinite"/>
+    </use>
+    <use href="#particle" x="320" y="260">
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        values="0 0; -28 16; 0 0" dur="8.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.03;0.2;0.03" dur="8.5s" repeatCount="indefinite"/>
+    </use>
+    <use href="#particle" x="1050" y="230">
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        values="0 0; -18 -10; 0 0" dur="5.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.02;0.18;0.02" dur="5.6s" repeatCount="indefinite"/>
+    </use>
+  </g>
+
+  <!-- 发光圆环与头像 -->
+  <g transform="translate(220,180)">
+    <!-- 外圈光晕 -->
+    <circle cx="0" cy="0" r="110" fill="none" stroke="url(#grad)" stroke-width="6" opacity="0.35" filter="url(#glow)">
+      <animate attributeName="r" values="108;112;108" dur="6s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- 头像（从 images/avatar.png 引用） -->
+    <g clip-path="url(#avatarClip)" transform="translate(-220,-180)">
+      <image href="images/avatar.png" x="134" y="94" width="172" height="172" preserveAspectRatio="xMidYMid slice"/>
+    </g>
+
+    <!-- 小发光点 -->
+    <circle cx="66" cy="-66" r="6" fill="#fff" opacity="0.9" filter="url(#glow)">
+      <animate attributeName="cx" values="66;80;66" dur="4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- 右侧文字 -->
+  <g transform="translate(420,110)">
+    <text x="0" y="0" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="34" fill="#ffffff" font-weight="700">
+      <tspan>Wang Jialiang</tspan>
+    </text>
+    <text x="0" y="42" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="18" fill="#e6f7ff" opacity="0.9">
+      <tspan>Senior · Computer Science & Technology</tspan>
+    </text>
+
+    <!-- 技能标签 -->
+    <g transform="translate(0,86)">
+      <rect x="0" y="0" rx="8" ry="8" width="140" height="34" fill="#001122" opacity="0.25" />
+      <text x="16" y="22" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="14" fill="#ffffff">Python · C++ · C#</text>
+    </g>
+
+    <!-- 精简一句描述 -->
+    <text x="0" y="150" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="13" fill="#cfeffb" opacity="0.9">
+      <tspan>Passionate about building efficient systems,</tspan>
+      <tspan x="0" dy="18">deploying services with Docker, and exploring AI.</tspan>
+    </text>
+  </g>
+
+  <!-- 底部细条 -->
+  <rect x="0" y="338" width="1200" height="12" fill="rgba(255,255,255,0.04)"/>
+</svg>
